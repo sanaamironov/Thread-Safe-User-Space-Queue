@@ -19,11 +19,11 @@ This project demonstrates a **thread-safe dynamic queue** implementation in pure
 ---
 ## 🧩 Project Structure
 userspace_queue_demo/
-queue_demo/
-├── main.c         # producer/consumer test 
-├── queue.c        # Logic 
-├── queue.h        # header file
-└── Makefile       #for building user-space code 
+-queue_demo/
+  - main.c         # producer/consumer test 
+  - queue.c        # Logic 
+  - queue.h        # header file
+  - Makefile       #for building user-space code 
 ---
 
 ## 🧵 Threads Overview
