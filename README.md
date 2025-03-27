@@ -1,5 +1,7 @@
 # 🧵 User-Space Multithreaded Queue (Producer-Consumer Demo)
-You can find the video here: https://youtu.be/v21JQaozgII
+
+📺 **Demo Video**: [Watch here](https://youtu.be/v21JQaozgII)
+
 This project demonstrates a **thread-safe dynamic queue** implementation in pure C, using **POSIX threads** (`pthreads`). It simulates a classic **producer-consumer problem**, where multiple threads interact with a shared queue protected by a mutex and condition variable.
 
 ---
@@ -15,7 +17,6 @@ This project demonstrates a **thread-safe dynamic queue** implementation in pure
 - Set the foundation for porting this design to **kernel space**
 
 ---
-
 ## 🧩 Project Structure
 userspace_queue_demo/
 queue_demo/
@@ -23,8 +24,6 @@ queue_demo/
 ├── queue.c        # Logic 
 ├── queue.h        # header file
 └── Makefile       #for building user-space code 
-
-
 ---
 
 ## 🧵 Threads Overview
