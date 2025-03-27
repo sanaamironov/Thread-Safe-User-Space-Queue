@@ -49,13 +49,9 @@ queue_demo/
 ---
 
 ## 🚀 Building and Running
- 
+
+ make 
  ./queue_demo
-
-### 🛠 Compile
-  make
-
-
 
 📚 References
   Beej's Guide to C Programming
